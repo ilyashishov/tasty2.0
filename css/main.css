@@ -1,0 +1,74 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.left{
+  top: 0px;
+  position: fixed;
+  min-height: 100%;
+  width: 15%;
+  float: left;
+  background-color: #fff;
+  border-right: 2px solid #D7D7D7;
+}
+.right{
+  width: 85%;
+  display: inline-block;
+  float: right;
+  background-color: #F4F4F4;
+}
+.right .content{
+  margin: 20px;
+}
+
+.block{
+  float: left;
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.block a{
+  background-color: #03A9F4;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  display: inline-block;
+}
+.block img{
+  border-radius: 2px;
+}
+
+.block p{
+  margin: 10px 0px;
+}
+
+.logo{
+  margin: 10px;
+  width: 122px;
+  height: 104px;
+  background: url(../img/logo.png)
+}
+
+nav {
+  margin: 20px;
+  list-style: none;
+}
+nav li{
+  margin: 5px 0px;
+}
+nav li a{
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav li a:hover{
+  text-decoration: underline;
+}
